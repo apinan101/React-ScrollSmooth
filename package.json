@@ -1,7 +1,7 @@
 {
   "name": "react-website-smooth",
   "version": "0.1.0",
-  "homepage" : "htts://apinan101.github.io/react_smooth",
+  "homepage" : "https://apinan101.github.io/react_smooth",
   "private": true,
   "dependencies": {
     "react": "^18.0.0",
@@ -13,7 +13,7 @@
     "styled-components": "^5.3.5"
   },
   "scripts": {
-    "predeploy": "num run build",
+    "predeploy": "npm run build",
     "deploy": "gh-page -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
